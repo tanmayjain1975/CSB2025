@@ -1,0 +1,62 @@
+/* body{
+    background: aquamarine;
+} */
+
+/* #home{
+    background: coral;
+}
+
+h1{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    background: #000;
+    color: aliceblue;
+} */
+
+/* .master{
+    background: #000;
+    color: aliceblue;
+} */
+
+div~p{
+    background: brown;
+    color: white;
+}
+/* div p{
+    background: brown;
+    color: white;
+} */
+
+/* p:hover{
+    background: black;
+    font-size: 20px;
+    color: aqua;
+} */
+
+p::before{
+    content: "We are the students of third year csb";
+    background: #0008ff;
+    color: aliceblue;
+}
+p::after{
+    content: "  ABES Engineering College";
+    background: #000;
+    color: aliceblue;
+}
+
+p::selection{
+    background: #000;
+}
+
+p:nth-child(2){
+    background: red;
+    color: yellow;
+}
+
+div p:nth-of-type(1){
+    background: aqua;
+    font-size: xx-large;
+}
