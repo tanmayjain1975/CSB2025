@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: chartreuse;
+    border: 1px solid red;
+}
+
+.child1{
+    height: 200px;
+    width: 200px;
+    background: aqua;
+    border: 2px dotted black;
+    order: 4;
+}
+.child2{
+    height: 200px;
+    width: 200px;
+    background: brown;
+        border: 2px dotted black;
+
+}
+.child3{
+    height: 200px;
+    width: 200px;
+    background: burlywood;
+        border: 2px dotted black;
+
+}
+.child4{
+    height: 200px;
+    width: 200px;
+    background: chocolate;
+        border: 2px dotted black;
+
+}
