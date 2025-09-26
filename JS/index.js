@@ -70,22 +70,22 @@
 // }
 // greetings();
 
-function selectlanguage(lang){
-    let data;
-    if(lang=='java'){
-        function javaCompiler(){
-            return "java compile selectd";
-    }
-    data = javaCompiler();
-    }
-    elseif(lang == 'c'){
-        function cCompiler(){
-            return "c compile selected";
-        }
-        data = cCompiler();
-    }
-    else{
-        data = "no such compiler";
-        }
-        console.log(data)
-}
+// function selectlanguage(lang){
+//     let data;
+//     if(lang=='java'){
+//         function javaCompiler(){
+//             return "java compile selectd";
+//     }
+//     data = javaCompiler();
+//     }
+//     elseif(lang == 'c'){
+//         function cCompiler(){
+//             return "c compile selected";
+//         }
+//         data = cCompiler();
+//     }
+//     else{
+//         data = "no such compiler";
+//         }
+//         console.log(data)
+// }
